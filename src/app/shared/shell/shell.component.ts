@@ -4,13 +4,13 @@ import { Observable } from 'rxjs';
 import { map, shareReplay } from 'rxjs/operators';
 
 @Component({
-  selector: 'app-shelll',
+  selector: 'app-shell',
   templateUrl: './shell.component.html',
   styleUrls: ['./shell.component.scss']
 })
 export class ShellComponent implements OnInit {
 
-  isHandset$: Observable<boolean> = this.breakpointObserver.observe([Breakpoints.Handset])
+  isHandset$: Observable<boolean> = this.breakPointObserver.observe([Breakpoints.Handset])
     .pipe(
       map(result => result.matches),
       shareReplay()
