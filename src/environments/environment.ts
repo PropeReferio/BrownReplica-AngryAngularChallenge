@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   firebase:{
-    apiKey: "AIzaSyAPB-pz11qMTIDQjRlfAVVmOwlSyu57PzY",
+   // apiKey: api from firebase console settings would go here
     authDomain: "angry-debug.firebaseapp.com",
     databaseURL: "https://angry-debug.firebaseio.com",
     projectId: "angry-debug",
